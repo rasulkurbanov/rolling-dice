@@ -1,0 +1,23 @@
+
+.dices {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  width: 25vw;
+}
+
+.clickBtn {
+  align-self: center;
+  width: 15em;
+  padding: 1.5em;
+  margin-top: 3em;
+  border: 0px;
+  border-radius: 10px;
+  color: white;
+  background-color: darkslategrey;
+}
+
+.clickBtn:hover {
+  background-color: lightslategray;
+  cursor: pointer;
+}
